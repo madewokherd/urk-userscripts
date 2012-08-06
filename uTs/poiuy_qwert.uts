@@ -1,0 +1,62 @@
+Author poiuy_qwert
+Version v5
+Contact irc.gamesurge.net - #script, #urk, #world
+Description Example theme for uTs. This is as close a port from my mIRC theme as i could make.
+
+TimeStamp %a - %H:%M:%S
+Prefix *
+Text \x0314%(timestamp)s | <\x0304%(pnick)s\x0314> %(text)s
+OwnText \x0315%(timestamp)s | <\x0307%(pnick)s\x0315> %(text)s
+HiText \x0308%(timestamp)s » <%(pnick)s> %(text)s
+Action \x0306%(timestamp)s %(pre)s %(pnick)s %(text)s
+OwnAction \x0306%(timestamp)s %(pre)s %(pnick)s %(text)s
+HiAction \x0308%(timestamp)s » %(pre)s %(pnick)s %(text)s
+Notice \x0305%(timestamp)s | -%(nick)s- %(text)s
+OwnNotice \x0305%(timestamp)s | -%(nick)s-> %(text)s
+HiNotice \x0308%(timestamp)s » -%(nick)s- %(text)s
+ChanNotice \x0305%(timestamp)s | -%(chan)s:%(pnick)s- %(text)s
+HiChanNotice \x0308%(timestamp)s » -%(chan)s:%(pnick)s- %(text)s
+Ctcp \x0304%(timestamp)s | [%(nick)s %(text)s]
+HiCtcp \x0308%(timestamp)s » [%(nick)s %(text)s]
+ChanCtcp \x0304%(timestamp)s | [%(chan)s:%(nick)s %(text)s]
+HiChanCtcp \x0308%(timestamp)s » [%(chan)s:%(nick)s %(text)s]
+CtcpReply \x0304%(timestamp)s [%(nick)s %(ctcp)s reply]: %(text)s
+HiCtcpReply \x0308%(timestamp)s » [%(nick)s %(ctcp)s reply]: %(text)s
+Join \x0309%(timestamp)s | %(pre)s %(nick)s (%(address)s) has joined %(chan)s.
+Part \x0303%(timestamp)s | %(pre)s %(pnick)s (%(address)s) has left %(chan)s.
+Kick \x0312%(timestamp)s | %(pre)s %(pknick)s (%(address)s) was kicked by %(pnick)s [%(text)s].
+Mode \x0310%(timestamp)s | %(pre)s %(pnick)s (%(address)s) sets mode: %(text)s
+Quit \x0302%(timestamp)s | %(pre)s %(nick)s (%(address)s) has quit IRC [%(text)s].
+Nick \x0311%(timestamp)s | %(pre)s %(nick)s (%(address)s) is now known as %(newnick)s.
+Disconnect \x0302%(timestamp)s | %(pre)s Disconnected [%(text)s]
+TopicSet \x0303%(timestamp)s | %(pre)s %(pnick)s changes topic to: '%(text)s'
+Topic \x0303%(timestamp)s | %(pre)s Topic is '%(text)s'
+TopicSetBy \x0303%(timestamp)s | %(pre)s Set by %(nick)s on %(text)s
+CreationTime \x0303%(timestamp)s | %(pre)s Channel created %(text)s
+WhoisStart \x0307_ _ _ _ _ _ _ _ _ _ _(Whois Start.)_ _ _ _ _ _ _ _ _ _ _
+WhoisUser \x0307User : %(nick)s (%(address)s) is %(text)s
+WhoisChannels \x0307Channels : %(text)s
+WhoisServer \x0307Server : %(network)s - %(text)s
+WhoisIdle \x0307Idle Time : %(text)s
+WhoisIrcop \x0307Ircop : Yes
+WhoisActually \x0307Actually : %(address)s
+WhoisSignon \x0307Signed On : %(text)s
+WhoisAccount \x0307Logged In : %(text)s
+WhoisEnd \x0307¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯(End of Whois)¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯
+Error \x0304Error: %(text)s
+Background #000
+Foreground #FFF
+Font Courier New 9
+TabHilight #009300
+TabText red
+TabEvent #00007F
+Indent 119
+
+Mode-o red
+Mode-v #00007F
+Mode- #FFF
+Mode-Other #009300 #9C009C
+MyNick #FF7F00
+Nick-poiuy_qwert #FF0
+Masks *!*@Services.GameSurge.net
+Mask-Colors #000

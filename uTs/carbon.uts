@@ -1,0 +1,48 @@
+Author poiuy_qwert
+Version v1
+Contact irc.gamesurge.net - #script, #urk, #world
+Description This is the MTS theme Carbon(scheme Ebon) created by PuffGirl ported as close as possible to uTs.
+
+TimeStamp \x0301,01.\x0314,14.\x0301%H:%M\x0314.\x0301,01.\x0F\x0301
+Prefix »
+Text %(timestamp)s\x02%(pre)s \x1F(\x02\x1F %(pnick)s \x02\x1F)\x02\x1F %(text)s
+Hilight %(timestamp)s\x0308\x02%(pre)s%(pre)s \x1F(\x02\x1F %(pnick)s \x02\x1F)\x02\x1F %(text)s
+OwnText %(timestamp)s\x02%(pre)s \x1F(\x02\x1F %(pnick)s \x02\x1F)\x02\x1F %(text)s
+Action %(timestamp)s\x02!\x02 %(pnick)s %(text)s
+OwnAction %(timestamp)s\x02!\x02 %(pnick)s %(text)s
+Notice %(timestamp)s\x0307%(pre)s%(pre)s \x02N\x02otice: %(nick)s \x02%(pre)s\x02 %(text)s
+OwnNotice %(timestamp)s\x0307-%(pre)s \x02N\x02otice: %(nick)s \x02%(pre)s\x02 %(text)s
+ChanNotice %(timestamp)s\x0307%(pre)s%(pre)s \x02N\x02otice on %(chan)s: %(nick)s \x02%(pre)s\x02 %(text)s
+Ctcp %(timestamp)s\x02%(pre)s%(pre)s C\x02TCP:\x02 %(nick)s %(text)s \x02%(pre)s
+ChanCtcp %(timestamp)s\x02%(pre)s%(pre)s C\x02TCP on %(chan)s:\x02 %(nick)s %(text)s \x02%\x02(pre)s
+CtcpReply %(timestamp)s\x02%(pre)s%(pre)s C\x02TCP Reply for %(ctcp)s:\x02 %(nick)s \x02%(pre)s\x02 %(text)s
+Join %(timestamp)s \x02-%(pre)s J\x02oins: \x02%(nick)s %(pre)s\x02 (%(address)s)
+Part %(timestamp)s \x02-%(pre)s P\x02arts: \x02%(pnick)s %(pre)s\x02 %(address)s)
+Kick %(timestamp)s \x02-%(pre)s K\x02icks: \x02%(pnick)s k\x02icks \x02%(pknick)s %(pre)s\x02 %(text)s
+Mode %(timestamp)s \x02-%(pre)s M\x02odes: \x02%(pnick)s %(pre)s\x02 \x02s\x02ets \x02m\x02ode: %(text)s
+Quit %(timestamp)s \x02-%(pre)s Q\x02uits: \x02%(nick)s %(pre)s\x02 (%(address)s) \x02%(pre)s\x02 %(text)s
+Nick %(timestamp)s \x02-%(pre)s Q\x02uits: \x02%(nick)s c\x02hanges \x02n\x02ick \x02t\x02o \x02%(newnick)s
+Disconnect %(timestamp)s\x02%(pre)s D\x02isconnected \x02%(pre)s\x02 %(text)s
+TopicSet \x0303%(timestamp)s | %(pre)s %(pnick)s changes topic to: '%(text)s'
+Topic %(timestamp)s\x02%(pre)s%(pre)s T\x02opic: %(text)s
+TopicSetBy %(timestamp)s\x02%(pre)s S\x02et by \x02%(nick)s\x02 on %(text)s
+CreationTime %(timestamp)s\x02%(pre)s%(pre)s C\x02reated: %(text)s
+WhoisStart %(timestamp)s - - - - - - - - - - - - - - - - - - - - - -
+WhoisUser %(timestamp)s \x02Whois:\x02 %(nick)s (%(address)s) \x02%(pre)s\x02 %(text)s
+WhoisChannels %(timestamp)s \x02-%(pre)s Channels:\x02 %(text)s
+WhoisServer %(timestamp)s \x02-%(pre)s Server:\x02 %(network)s \x02%(pre)s\x02 %(text)s
+WhoisIdle %(timestamp)s \x02-%(pre)s Idle:\x02 %(text)s
+WhoisIrcop %(timestamp)s \x02-%(pre)s Ircop:\x02 Yes
+WhoisActually %(timestamp)s \x02-%(pre)s Actually:\x02 %(address)s
+WhoisSignon %(timestamp)s \x02-%(pre)s Signon:\x02 %(text)s
+WhoisAccount %(timestamp)s \x02-%(pre)s Account:\x02 %(text)s
+WhoisEnd %(timestamp)s - - - - - - - - - - - - - - - - - - - - - -
+Error %(timestamp)s\x02%(pre)s\x02 Error: %(text)s
+Background #FFF
+Foreground #000
+Font Tahoma 10
+TabHilight #009300
+TabText red
+TabEvent #00007F
+Indent 0
+

@@ -1,0 +1,48 @@
+Author poiuy_qwert
+Version v2
+Contact irc.gamesurge.net - #script, #urk, #world
+Description Coags mIRC theme ported as close as possible to uTs.
+
+TimeStamp %H:%M:%S
+Prefix --
+Text \x0310(\x0314%(timestamp)s\x0310) (\x0309%(p)s\x0314%(nick)s\x0310)\x0F %(text)s
+Hilight \x0304(\x0314%(timestamp)s\x0304) (\x0309%(p)s\x0314%(nick)s\x0304) %(text)s
+OwnText \x0310(\x0315%(timestamp)s\x0310) (\x0309%(p)s\x0315%(nick)s\x0310)\x0F %(text)s
+Action \x0310(\x0304%(timestamp)s\x0310) %(pre)s \x0309%(p)s\x0304%(nick)s %(text)s
+OwnAction \x0310(\x0304%(timestamp)s\x0310) %(pre)s \x0309%(p)s\x0304%(nick)s %(text)s
+Notice \x0310(\x0304%(timestamp)s\x0310) -\x0304%(nick)s\x0310-\x0304 %(text)s
+OwnNotice \x0310(\x0304%(timestamp)s\x0310) -> -\x0309%(p)s\x0304%(nick)s\x0310-\x0304 %(text)s
+ChanNotice \x0310(\x0304%(timestamp)s\x0310) -\x0309%(p)s\x0304%(nick)s\x0310:\x0304%(chan)s\x0310-\x0304 %(text)s
+Ctcp \x0310(\x0308%(timestamp)s\x0310) [\x0308%(nick)s\x0310]\x0308 %(text)s
+ChanCtcp \x0310(\x0308%(timestamp)s\x0310) [\x0309%(p)s\x0308%(nick)s\x0310:\x0308%(chan)s\x0310]\x0308 %(text)s
+CtcpReply \x0310(\x0308%(timestamp)s\x0310) [\x0308%(nick)s %(ctcp)s reply\x0310]\x0308 %(text)s
+Join \x0310(\x0303%(timestamp)s\x0310) %(pre)s \x0303Join\x0310(\x0303%(chan)s\x0310)\x0303: %(nick)s \x0310(\x0303%(address)s\x0310)
+Part \x0310(\x0303%(timestamp)s\x0310) %(pre)s \x0303Part\x0310(\x0303%(chan)s\x0310)\x0303: \x0309%(p)s\x0303%(nick)s \x0310(\x0303%(address)s\x0310) (\x0303%(text)s\x0310)
+Kick \x0310(\x0303%(timestamp)s\x0310) %(pre)s \x0307%(pnick)s kicked %(pknick)s \x0310(\x0307%(text)s\x0310)
+Mode \x0310(\x0303%(timestamp)s\x0310) %(pre)s \x0303%(nick)s sets Mode: %(text)s
+Quit \x0310(\x0312%(timestamp)s\x0310) %(pre)s \x0312Quit: %(nick)s \x0310(\x0312%(address)s\x0310) (\x0312%(text)s\x0310)
+Nick \x0310(\x0304%(timestamp)s\x0310) %(pre)s \x0304Nick: %(nick)s \x0310(\x0304%(address)s\x0310)\x0304 is now: %(newnick)s
+Disconnect \x0310(\x0312%(timestamp)s\x0310) %(pre)s \x0312Disconnected\x0310:\x0312 %(text)s
+TopicSet \x0310(\x0303%(timestamp)s\x0310) %(pre)s \x0309%(p)s\x0303%(nick)s sets Topic\x0310(\x0303%(chan)s\x0310)\x0303: \x0310'\x0303%(text)s\x0310'
+Topic \x0310(\x0303%(timestamp)s\x0310) %(pre)s \x0303Topic\x0310(\x0303%(chan)s\x0310)\x0303: \x0310'\x0303%(text)s\x0310'
+TopicSetBy \x0310(\x0303%(timestamp)s\x0310) %(pre)s \x0303Topic\x0310(\x0303%(chan)s\x0310)\x0303: Set by %(nick)s on %(text)s
+CreationTime \x0310(\x0303%(timestamp)s\x0310) %(pre)s \x0303Created\x0310(\x0303%(chan)s\x0310)\x0303: %(text)s
+WhoisStart \x0310(\x0309%(timestamp)s\x0310) %(pre)s%(pre)s%(pre)s%(pre)s\x0309 /Whois for %(nick)s:
+WhoisUser \x0310(\x0309%(timestamp)s\x0310) %(pre)s \x0309Address\x0310(\x0309%(address)s\x0310) \x0309RealName\x0310(\x0309%(text)s\x0310)
+WhoisChannels \x0310(\x0309%(timestamp)s\x0310) %(pre)s \x0309Channels\x0310(\x0309%(text)s\x0310)
+WhoisServer \x0310(\x0309%(timestamp)s\x0310) %(pre)s \x0309Server\x0310(\x0309%(network)s\x0310) \x0309Name\x0310(\x0309%(text)s\x0310)
+WhoisIdle \x0310(\x0309%(timestamp)s\x0310) %(pre)s \x0309Idle\x0310(\x0309%(text)s\x0310)
+WhoisIrcop \x0310(\x0309%(timestamp)s\x0310) %(pre)s \x0309IrcOp\x0310(\x0309Yes\x0310)
+WhoisActually \x0310(\x0309%(timestamp)s\x0310) %(pre)s \x0309Actually\x0310(\x0309%(address)s\x0310)
+WhoisSignon \x0310(\x0309%(timestamp)s\x0310) %(pre)s \x0309Signon\x0310(\x0309%(text)s\x0310)
+WhoisAccount \x0310(\x0309%(timestamp)s\x0310) %(pre)s \x0309AuthName\x0310(\x0309%(text)s\x0310)
+WhoisEnd \x0310(\x0309%(timestamp)s\x0310) %(pre)s%(pre)s%(pre)s%(pre)s\x0309 End of /Whois for %(nick)s
+Error \x0310(\x0304%(timestamp)s\x0310) \x0304Error: %(text)s
+Background #000
+Foreground #FFF
+Font Verdana 8
+TabHilight #009300
+TabText red
+TabEvent #00007F
+Indent 0
+
